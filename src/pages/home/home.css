@@ -1,0 +1,53 @@
+.NavAndHome {
+  display: flex;
+}
+.home {
+  padding: 30px;
+}
+.homeTop {
+  display: flex;
+}
+.homeLeft {
+  flex: 5;
+}
+.homeRight {
+  flex: 5;
+}
+.feedback {
+  margin-top: 23px;
+  margin-left: 1.5em;
+  background-color: rgb(231, 240, 248);
+  color: #030405;
+  display: inline-block;
+  width: 200px;
+}
+.divideFeedback {
+  display: flex;
+  align-items: center;
+  margin: 23px 35px;
+}
+.homeBottom {
+  padding-top: 8px;
+}
+.realtorName {
+  padding: 13px;
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-size: 23px;
+  font-style: normal;
+}
+.realtorImg {
+  height: 50vh;
+  width: 25vw;
+  border-radius: 50%;
+}
+.homeRight {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* p {
+  text-align: center;
+} */
