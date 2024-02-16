@@ -1,0 +1,54 @@
+.NavAndApartments {
+  display: flex;
+}
+.apartments {
+  overflow-y: scroll;
+  height: 80vh;
+  width: 100%;
+  scrollbar-width: 5px;
+}
+/* Optionally, style the scrollbar */
+.apartments::-webkit-scrollbar {
+  width: 5px;
+}
+.apartments::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+.apartments::-webkit-scrollbar-thumb {
+  background: rgb(170, 11, 11);
+  background: radial-gradient(
+    circle,
+    rgba(170, 11, 11, 1) 43%,
+    rgba(200, 172, 133, 1) 100%
+  );
+  border-radius: 4px;
+}
+
+.apartmentsList {
+  list-style: none;
+}
+.apartmentsListItem {
+  width: 620px;
+  margin-top: 23px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.apartmentImg {
+  max-width: 18vw;
+  object-fit: cover;
+}
+.DescList {
+  list-style: none;
+  margin-top: 16px;
+}
+.apartmentDesc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 23px;
+}
+.apartmentsListItem {
+  margin-top: 23px;
+}

@@ -27,14 +27,14 @@ export default function Home() {
                   buy, sell, or lease your properties.
                   <br />
                   <br />
-                  As a resident of the GTA, a Muskoka cottager, and the proud
-                  mother of two children, I am aware of how challenging life can
-                  be and how crucial it is for you to have faith in your Realtor
-                  to keep you informed about your property's status without you
-                  having to take additional time away from your busy schedule to
-                  handle the most crucial transactions in your life. I'm
-                  dedicated to making sure your upcoming real estate venture is
-                  easy, uncomplicated, and straightforward.
+                  As a resident of the GTA, a Muskoka cottager, I am aware of
+                  how challenging life can be and how crucial it is for you to
+                  have faith in your Realtor to keep you informed about your
+                  property's status without you having to take additional time
+                  away from your busy schedule to handle the most crucial
+                  transactions in your life. I'm dedicated to making sure your
+                  upcoming real estate venture is easy, uncomplicated, and
+                  straightforward.
                 </p>
               </div>
               <div className="homeRight">

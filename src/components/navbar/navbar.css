@@ -35,3 +35,11 @@
   font-weight: 700;
   cursor: pointer;
 }
+.navPage:hover {
+  background: rgb(200, 172, 133, 1);
+  background: radial-gradient(
+    circle,
+    rgba(200, 172, 133, 1) 23%,
+    rgba(170, 11, 11, 1) 100%
+  );
+}
