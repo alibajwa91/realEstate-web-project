@@ -1,0 +1,42 @@
+export const Appartments = [
+  {
+    id: 1,
+    appartmentImg: "assets/appartments/appartment1.jpeg",
+    address: "unit 302, 3243 Burligton ave, North york, Toronto",
+    Price: "Price: 355,900$",
+    Bedrooms: 2,
+    bathrooms: 3,
+  },
+  {
+    id: 2,
+    appartmentImg: "assets/appartments/appartment2.jpeg",
+    address: "unit 2302, 4332 cresent Road, North york, Toronto",
+    Price: "Price: 585,700$",
+    Bedrooms: 3,
+    bathrooms: 2,
+  },
+  {
+    id: 3,
+    appartmentImg: "assets/appartments/appartment3.jpeg",
+    address: "unit 1020, 345 Hallway street, downtown, Toronto",
+    Price: "Price: 764,000$",
+    Bedrooms: 3,
+    bathrooms: 3,
+  },
+  {
+    id: 4,
+    appartmentImg: "assets/appartments/appartment4.jpeg",
+    address: "unit: 901, 2019 Bessbrough drive, east york,Toronto",
+    Price: "Price: 850,200$",
+    Bedrooms: 4,
+    bathrooms: 3,
+  },
+  {
+    id: 5,
+    appartmentImg: "assets/appartments/appartment5.jpeg",
+    address: "unit: 405, 5434 Norway street, East york, Toronto",
+    Price: "Price: 750,600$",
+    Bedrooms: "2 + 1",
+    bathrooms: 1,
+  },
+];

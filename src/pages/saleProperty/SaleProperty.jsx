@@ -1,6 +1,7 @@
 import "./saleproperty.css";
 import TopBanner from "../../components/topbanner/TopBanner";
 import Navbar from "../../components/navbar/Navbar";
+import { Link } from "react-router-dom";
 
 export default function SaleProperty() {
   return (
@@ -56,8 +57,12 @@ export default function SaleProperty() {
           <hr className="divideTopBottom" />
           <div className="propertyBottom">
             <ul className="propertyLists">
-              <li className="propertyListItem">Apartments</li>
-              <li className="propertyListItem"> Houses</li>
+              <Link to="/appartmentspage" className="link">
+                <li className="propertyListItem">Apartments</li>
+              </Link>
+              <Link to="/housespage" className="link">
+                <li className="propertyListItem"> Houses</li>
+              </Link>
             </ul>
           </div>
         </div>

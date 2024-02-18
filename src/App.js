@@ -5,11 +5,11 @@ import Houses from "./pages/houses/Houses";
 import SaleProperty from "./pages/saleProperty/SaleProperty";
 function App() {
   return (
-    // <Home/>
+    <Home />
     // <SaleProperty />
     // <Apartments />
     // <Houses />
-    <Contactus />
+    // <Contactus />
   );
 }
 

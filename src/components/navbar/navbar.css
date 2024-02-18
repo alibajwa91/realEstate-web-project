@@ -43,3 +43,15 @@
     rgba(170, 11, 11, 1) 100%
   );
 }
+/* Remove underline */
+.link {
+  text-decoration: none;
+}
+
+/* Remove blue color */
+.link:link,
+.link:visited,
+.link:hover,
+.link:active {
+  color: inherit;
+}

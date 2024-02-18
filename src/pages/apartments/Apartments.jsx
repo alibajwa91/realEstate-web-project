@@ -65,7 +65,7 @@ export default function Apartments() {
                   <ul className="DescList">
                     <li>Price: 744,500$</li>
                     <li>Bedrooms:3</li>
-                    <li>Bathrooms:2 (contactus for mmore details)</li>
+                    <li>Bathrooms:2 (contactus for more details)</li>
                   </ul>
                 </span>
               </li>
