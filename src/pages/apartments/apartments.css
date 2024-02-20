@@ -28,7 +28,7 @@
   list-style: none;
 }
 .apartmentsListItem {
-  width: 620px;
+  width: 45vw;
   margin-top: 23px;
   display: flex;
   justify-content: space-between;
@@ -51,4 +51,14 @@
 }
 .apartmentsListItem {
   margin-top: 23px;
+}
+
+@media (max-width: 619px) {
+  .NavAndApartments {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .apartmentsListItem {
+    width: 80vw;
+  }
 }

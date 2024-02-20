@@ -55,3 +55,16 @@
 .link:active {
   color: inherit;
 }
+
+@media (max-width: 619px) {
+  .navbar {
+    height: 33vh;
+    width: 100%;
+  }
+  .navPage {
+    margin: 0.5vh 0;
+    padding: 12px;
+    height: 100%;
+    width: 96vw;
+  }
+}

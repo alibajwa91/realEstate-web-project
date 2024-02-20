@@ -108,3 +108,15 @@
   display: flex;
   justify-content: flex-end;
 }
+
+@media (max-width: 902px) {
+  .contactusWrapper {
+    margin: 6px 17px;
+  }
+}
+@media (max-width: 619px) {
+  .NavAndContactus {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

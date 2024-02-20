@@ -72,3 +72,19 @@
 /* p {
   text-align: center;
 } */
+
+@media (max-width: 833px) {
+  .realtorImg {
+    height: 29vh;
+  }
+}
+
+@media (max-width: 619px) {
+  .realtorImg {
+    height: 23vh;
+  }
+  .NavAndHome {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

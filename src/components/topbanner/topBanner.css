@@ -73,6 +73,21 @@
   width: 35vw;
   padding: 12px 0 0 0;
 }
+@media (max-width: 619px) {
+  .homeTop {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .topBannerRight {
+    font-size: 13px;
+  }
+  .topBannerlogo {
+    height: 19px;
+  }
+  .TopBannerTxt {
+    font-size: 13px;
+  }
+}
 
 /* .topBannerSearch {
   display: flex;

@@ -47,9 +47,7 @@
 .gallery span {
   display: none;
 }
-.gallery {
-  width: 600px;
-}
+
 .salePropertyListItem {
   cursor: pointer;
   height: auto;
@@ -111,4 +109,11 @@
 .link:hover,
 .link:active {
   color: inherit; /* or specify the color you want */
+}
+
+@media (max-width: 619px) {
+  .NavAndSaleProperty {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
