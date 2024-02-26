@@ -1,0 +1,16 @@
+.NavAndMap {
+    display: flex;
+}
+
+.sitemap {
+    height: 100%;
+    width: 100%;
+}
+
+@media (max-width: 619px) {
+
+    .NavAndMap {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
