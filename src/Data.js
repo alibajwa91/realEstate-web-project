@@ -1,7 +1,11 @@
 export const Appartments = [
   {
     id: 1,
-    appartmentImg: "assets/appartments/appartment1.jpeg",
+    appartmentImg: [
+      "assets/appartments/appartment1/appartment1(1).jpeg",
+      "assets/appartments/appartment1/appartment1(2).jpg",
+      "assets/appartments/appartment1/appartment1(3).jpg",
+    ],
     address: "unit 302, 3243 Burligton ave, North york, Toronto",
     Price: "Price: 355,900$",
     Bedrooms: 2,
@@ -9,7 +13,11 @@ export const Appartments = [
   },
   {
     id: 2,
-    appartmentImg: "assets/appartments/appartment2.jpeg",
+    appartmentImg: [
+      "assets/appartments/appartment2/appartment2(1).jpeg",
+      "assets/appartments/appartment2/appartment2(2).jpg",
+      "assets/appartments/appartment2/appartment2(3).jpg",
+    ],
     address: "unit 2302, 4332 cresent Road, North york, Toronto",
     Price: "Price: 585,700$",
     Bedrooms: 3,
@@ -17,7 +25,11 @@ export const Appartments = [
   },
   {
     id: 3,
-    appartmentImg: "assets/appartments/appartment3.jpeg",
+    appartmentImg: [
+      "assets/appartments/appartment3/appartment3(1).jpeg",
+      "assets/appartments/appartment3/appartment3(2).jpg",
+      "assets/appartments/appartment3/appartment3(3).jpg",
+    ],
     address: "unit 1020, 345 Hallway street, downtown, Toronto",
     Price: "Price: 764,000$",
     Bedrooms: 3,
@@ -25,7 +37,11 @@ export const Appartments = [
   },
   {
     id: 4,
-    appartmentImg: "assets/appartments/appartment4.jpeg",
+    appartmentImg: [
+      "assets/appartments/appartment4/appartment4(1).jpeg",
+      "assets/appartments/appartment4/appartment4(2).jpg",
+      "assets/appartments/appartment4/appartment4(3).jpg",
+    ],
     address: "unit: 901, 2019 Bessbrough drive, east york,Toronto",
     Price: "Price: 850,200$",
     Bedrooms: 4,
@@ -33,7 +49,11 @@ export const Appartments = [
   },
   {
     id: 5,
-    appartmentImg: "assets/appartments/appartment5.jpeg",
+    appartmentImg: [
+      "assets/appartments/appartment5/appartment1(1).jpeg",
+      "assets/appartments/appartment5/appartment1(2).jpg",
+      "assets/appartments/appartment5/appartment1(3).jpg",
+    ],
     address: "unit: 405, 5434 Norway street, East york, Toronto",
     Price: "Price: 750,600$",
     Bedrooms: "2 + 1",
@@ -44,7 +64,11 @@ export const Appartments = [
 export const HousesData = [
   {
     id: 1,
-    houseImg: "assets/houses/houseL1.jpeg",
+    houseImg: [
+      "assets/houses/houseL1(1)/houseL1.jpeg",
+      "assets/houses/houseL1(5)/houses(5).jpg",
+      "assets/houses/houseL1(5)/houses(6).jpg",
+    ],
     address: "2324 Ramsy Road , Toronto",
     Price: "Price: 850,900$",
     Bedrooms: 2,
@@ -52,7 +76,11 @@ export const HousesData = [
   },
   {
     id: 2,
-    houseImg: "assets/houses/houseL2.jpeg",
+    houseImg: [
+      "assets/houses/houseL1(2)/houseL2.jpeg",
+      "assets/houses/houseL1(2)/houses(3).jpg",
+      "assets/houses/houseL1(2)/houses(4).jpg",
+    ],
     address: "4953 Bannf Road, Toronto",
     Price: "Price: 860,600$",
     Bedrooms: "2 + 1",
@@ -60,7 +88,11 @@ export const HousesData = [
   },
   {
     id: 3,
-    houseImg: "assets/houses/houseL3.jpeg",
+    houseImg: [
+      "assets/houses/houseL1(3)/houseL3.jpeg",
+      "assets/houses/houseL1(3)/houses(1).jpg",
+      "assets/houses/houseL1(3)/houses(2).jpg",
+    ],
     address: "3234 Bayview ave, Toronto",
     Price: "Price: 879,000$",
     Bedrooms: 4,
@@ -68,7 +100,11 @@ export const HousesData = [
   },
   {
     id: 4,
-    houseImg: "assets/houses/houseL4.jpeg",
+    houseImg: [
+      "assets/houses/houseL1(4)/houseL4.jpeg",
+      "assets/houses/houseL1(4)/houses(3).jpg",
+      "assets/houses/houseL1(4)/houses(4).jpg",
+    ],
     address: "456 Mount pleasent Road,Toronto",
     Price: "Price: 890,600$",
     Bedrooms: "3 + 1",
@@ -76,7 +112,11 @@ export const HousesData = [
   },
   {
     id: 5,
-    houseImg: "assets/houses/houseL5.jpeg",
+    houseImg: [
+      "assets/houses/houseL1(5)/houseL5.jpeg",
+      "assets/houses/houseL1(5)/houses(5).jpg",
+      "assets/houses/houseL1(5)/houses(6).jpg",
+    ],
     address: "312 Millwood road,Toronto",
     Price: "Price: 850,200$",
     Bedrooms: 4,
@@ -84,7 +124,11 @@ export const HousesData = [
   },
   {
     id: 6,
-    houseImg: "assets/houses/houseL6.jpeg",
+    houseImg: [
+      "assets/houses/houseL1(6)/houseL6.jpeg",
+      "assets/houses/houseL1(6)/houses(1).jpg",
+      "assets/houses/houseL1(6)/houses(2).jpg",
+    ],
     address: "432 pape ave , Toronto",
     Price: "Price: 950,200$",
     Bedrooms: 4,
@@ -92,7 +136,11 @@ export const HousesData = [
   },
   {
     id: 7,
-    houseImg: "assets/houses/houseL7.jpeg",
+    houseImg: [
+      "assets/houses/houseL1(7)/houseL7.jpeg",
+      "assets/houses/houseL1(7)/houses(3).jpg",
+      "assets/houses/houseL1(7)/houses(4).jpg",
+    ],
     address: "2334 Eglinton ave East, Toronto",
     Price: "Price: 870,000$",
     Bedrooms: 2,
@@ -100,7 +148,11 @@ export const HousesData = [
   },
   {
     id: 8,
-    houseImg: "assets/houses/houseL8.jpg",
+    houseImg: [
+      "assets/houses/houseL1(8)/houseL8.jpg",
+      "assets/houses/houseL1(8)/houses(5).jpg",
+      "assets/houses/houseL1(8)/houses(6).jpg",
+    ],
     address: "342 Richard street, Toronto",
     Price: "Price: 1100,200$",
     Bedrooms: "4 +1",
@@ -108,7 +160,11 @@ export const HousesData = [
   },
   {
     id: 9,
-    houseImg: "assets/houses/houseL9.jpg",
+    houseImg: [
+      "assets/houses/houseL1(9)/houseL9.jpg",
+      "assets/houses/houseL1(9)/houses(1).jpg",
+      "assets/houses/houseL1(9)/houses(2).jpg",
+    ],
     address: "436 Danfroth ave,Toronto",
     Price: "Price: 1050,200$",
     Bedrooms: 5,
@@ -116,7 +172,11 @@ export const HousesData = [
   },
   {
     id: 10,
-    houseImg: "assets/houses/houseL10.jpeg",
+    houseImg: [
+      "assets/houses/houseL1(10)/houseL10.jpeg",
+      "assets/houses/houseL1(10)/houses(5).jpg",
+      "assets/houses/houseL1(10)/houses(6).jpg",
+    ],
     address: "3654 Lawrence ave,Toronto",
     Price: "Price: 1255,200$",
     Bedrooms: 4,

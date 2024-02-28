@@ -1,32 +1,35 @@
 .NavAndHouses {
   display: flex;
 }
+
 .houses {
   overflow-y: scroll;
   height: 80vh;
   width: 100%;
   scrollbar-width: 5px;
 }
+
 /* Optionally, style the scrollbar */
 .houses::-webkit-scrollbar {
   width: 5px;
 }
+
 .houses::-webkit-scrollbar-track {
   background-color: #f1f1f1;
 }
+
 .houses::-webkit-scrollbar-thumb {
   background: rgb(170, 11, 11);
-  background: radial-gradient(
-    circle,
-    rgba(170, 11, 11, 1) 43%,
-    rgba(200, 172, 133, 1) 100%
-  );
+  background: radial-gradient(circle,
+      rgba(170, 11, 11, 1) 43%,
+      rgba(200, 172, 133, 1) 100%);
   border-radius: 4px;
 }
 
 .housesList {
   list-style: none;
 }
+
 .housesListItem {
   width: 45vw;
   margin-top: 23px;
@@ -37,11 +40,14 @@
 .houseImg {
   max-width: 18vw;
   object-fit: cover;
+  display: flex;
 }
+
 .DescList {
   list-style: none;
   margin-top: 16px;
 }
+
 .houseDesc {
   display: flex;
   flex-direction: column;
@@ -49,14 +55,17 @@
   justify-content: center;
   margin-left: 23px;
 }
+
 .housesListItem {
   margin-top: 23px;
 }
+
 @media (max-width: 619px) {
   .NavAndHouses {
     display: flex;
     flex-wrap: wrap;
   }
+
   .housesListItem {
     width: 80vw;
   }
