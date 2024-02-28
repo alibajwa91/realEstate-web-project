@@ -6,7 +6,6 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Apartments from "./pages/apartments/Apartments";
 import Contactus from "./pages/contactus/Contactus";
 import Houses from "./pages/houses/Houses";
-import Home from "./pages/home/Home";
 import Sitemap from "./pages/sitemap/Sitemap";
 import SaleProperty from "./pages/saleProperty/SaleProperty";
 import Login from "./pages/login/Login";

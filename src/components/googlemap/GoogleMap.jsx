@@ -25,7 +25,7 @@ const GoogleMap = () => {
       });
 
       markerPositions.forEach((position) => {
-        // Create a marker for each position
+        // eslint-disable-next-line no-unused-vars
         const marker = new window.google.maps.Marker({
           position: position,
           map: map,
