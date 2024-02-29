@@ -81,13 +81,13 @@ export default function Contactus() {
                   What kind of Property would you like:
                 </label>
                 <br />
-                <input
-                  type="propertyType"
-                  class="  "
+                <textarea
                   name="propertyType"
                   className="fieldInputDescription"
                   required
-                />
+                  rows="4" // Adjust the number of rows as needed
+                  cols="50" // Adjust the number of columns as needed
+                ></textarea>
               </div>
               <div className="formField">
                 <label for="bedrooms" className="fieldLabel">
@@ -140,8 +140,8 @@ export default function Contactus() {
                 >
                   Any other requirment?:
                 </label>
-                <input
-                  type="comments"
+                <textarea
+                  type="text"
                   class="comments"
                   name="comments"
                   className="fieldInputDescription"

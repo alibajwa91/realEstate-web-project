@@ -2,18 +2,18 @@
   height: 110px;
   width: 100%;
   background: rgb(170, 11, 11);
-  background: radial-gradient(
-    circle,
-    rgba(170, 11, 11, 1) 43%,
-    rgba(200, 172, 133, 1) 100%
-  );
+  background: radial-gradient(circle,
+      rgba(170, 11, 11, 1) 43%,
+      rgba(200, 172, 133, 1) 100%);
 }
+
 .topBannerTop {
   display: flex;
   justify-content: space-between;
   margin: 0 20px;
   padding: 12px 0;
 }
+
 .TopBottomDivision {
   margin: 0 5%;
   color: black;
@@ -24,28 +24,34 @@
   align-items: center;
   justify-content: center;
 }
+
 .commonNav {
   margin-right: 26px;
   cursor: pointer;
 }
+
 .login {
   /* display: flex; */
   align-items: center;
   cursor: pointer;
 }
+
 .topBannerRight {
   font-weight: 500;
 }
+
 .topBannerLeft {
   display: flex;
   align-items: center;
 }
+
 .topBannerlogo {
   padding: 0;
   margin: 0 10px 0 0;
   height: 30px;
   align-items: center;
 }
+
 .TopBannerTxt {
   font-family: "Dancing Script", cursive;
   font-optical-sizing: auto;
@@ -53,6 +59,7 @@
   font-size: 23px;
   font-style: normal;
 }
+
 .searchbar {
   background-color: white;
   height: 30px;
@@ -61,31 +68,44 @@
   display: flex;
   align-items: center;
 }
+
 .searchInput {
   border: none;
   height: 20px;
   width: 70%;
 }
+
 .searchInput:focus {
   outline: none;
 }
+
 .topBannerSearch {
   width: 35vw;
   padding: 12px 0 0 0;
 }
+
 @media (max-width: 619px) {
   .homeTop {
     display: flex;
     flex-direction: column-reverse;
   }
+
   .topBannerRight {
     font-size: 13px;
   }
+
   .topBannerlogo {
     height: 19px;
   }
+
   .TopBannerTxt {
     font-size: 13px;
+  }
+}
+
+@media (max-width: 455px) {
+  .TopBannerTxt {
+    display: none;
   }
 }
 

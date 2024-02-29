@@ -15,7 +15,11 @@ export default function Login() {
         <div className="loginRight">
           <div className="loginBox">
             <input placeholder="Email" className="loginEmail" />
-            <input placeholder="Password" className="loginPassword" />
+            <input
+              placeholder="Password"
+              type="password"
+              className="loginPassword"
+            />
             <Link to="/">
               <button className="loginBtn">Log In</button>
             </Link>

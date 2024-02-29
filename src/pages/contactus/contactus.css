@@ -1,27 +1,30 @@
 .NavAndContactus {
   display: flex;
 }
+
 .contactus {
   overflow-y: scroll;
   height: 82vh;
   width: 100%;
   scrollbar-width: 5px;
 }
+
 .contactus::-webkit-scrollbar {
   width: 5px;
 }
+
 .contactus::-webkit-scrollbar-track {
   background-color: #f1f1f1;
 }
+
 .contactus::-webkit-scrollbar-thumb {
   background: rgb(170, 11, 11);
-  background: radial-gradient(
-    circle,
-    rgba(170, 11, 11, 1) 43%,
-    rgba(200, 172, 133, 1) 100%
-  );
+  background: radial-gradient(circle,
+      rgba(170, 11, 11, 1) 43%,
+      rgba(200, 172, 133, 1) 100%);
   border-radius: 4px;
 }
+
 .contactusWrapper {
   margin: 50px 150px;
   padding: 30px;
@@ -33,74 +36,78 @@
     20px 1px 37px 8px rgba(0, 0, 0, 0.11);
   background: #ffffff;
 }
+
 .formTitle {
   display: flex;
   justify-content: center;
   margin: 23px;
   background: rgb(200, 172, 133, 1);
-  background: radial-gradient(
-    circle,
-    rgba(200, 172, 133, 1) 23%,
-    rgba(170, 11, 11, 1) 100%
-  );
+  background: radial-gradient(circle,
+      rgba(200, 172, 133, 1) 23%,
+      rgba(170, 11, 11, 1) 100%);
   border-radius: 12px;
 }
+
 .subTitle {
   margin: 20px 0;
   font-size: 20px;
 }
+
 .formField {
   display: flex;
   margin: 16px 19px;
   justify-content: space-between;
   font-weight: 600;
 }
+
 .contactForm {
   width: 100%;
 }
+
 .fieldInput {
   height: 20px;
   width: 300px;
   border-radius: 5px;
   border-color: rgb(233, 193, 106);
 }
+
 .fieldInputDesc {
   height: 20px;
   width: 150px;
   border-radius: 5px;
   border-color: rgb(233, 193, 106);
 }
+
 .formFieldDescription {
   margin: 16px 19px;
   font-weight: 600;
   display: flex;
   flex-direction: column;
 }
+
 .fieldInputDescription {
   height: 130px;
   border-radius: 5px;
   border-color: rgb(233, 193, 106);
 }
+
 .submitbtn {
   margin-right: 25px;
   padding-right: 25px;
   border-radius: 12px;
   background: rgb(81, 221, 16);
-  background: radial-gradient(
-    circle,
-    rgba(81, 221, 16) 23%,
-    rgb(58, 78, 4) 100%
-  );
+  background: radial-gradient(circle,
+      rgba(81, 221, 16) 23%,
+      rgb(58, 78, 4) 100%);
   font-weight: 600;
 }
+
 .resetbtn {
   border-radius: 12px;
   background: rgb(200, 172, 133, 1);
-  background: radial-gradient(
-    circle,
-    rgba(200, 172, 133, 1) 23%,
-    rgba(170, 11, 11, 1) 100%
-  );
+  background: radial-gradient(circle,
+      rgba(200, 172, 133, 1) 23%,
+      rgba(170, 11, 11, 1) 100%);
   font-weight: 600;
 }
 
@@ -114,9 +121,14 @@
     margin: 6px 17px;
   }
 }
+
 @media (max-width: 619px) {
   .NavAndContactus {
     display: flex;
     flex-wrap: wrap;
+  }
+
+  .contactus {
+    overflow-y: none
   }
 }

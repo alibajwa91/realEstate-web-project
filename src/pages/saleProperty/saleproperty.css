@@ -1,6 +1,7 @@
 .NavAndSaleProperty {
   display: flex;
 }
+
 /* gallery styling */
 .gallery {
   display: flex;
@@ -10,24 +11,25 @@
 .gallery h3 {
   margin-left: 10px;
 }
+
 .gallery p {
   width: 450px;
   background: rgb(170, 11, 11);
-  background: radial-gradient(
-    circle,
-    rgba(170, 11, 11, 1) 43%,
-    rgba(200, 172, 133, 1) 100%
-  );
+  background: radial-gradient(circle,
+      rgba(170, 11, 11, 1) 43%,
+      rgba(200, 172, 133, 1) 100%);
   font-size: 15px;
   font-weight: 600;
   text-decoration: none;
   color: rgb(8, 8, 8);
   padding: 10px;
 }
+
 .gallery span img {
   width: 450px;
   height: auto;
 }
+
 .gallery img {
   width: 150px;
   float: left;
@@ -39,11 +41,13 @@
   list-style: none;
   width: 300px;
 }
+
 .gallery li {
   display: flex;
   flex-direction: column;
   margin-top: 23px;
 }
+
 .gallery span {
   display: none;
 }
@@ -62,6 +66,7 @@
   margin-left: auto;
   margin-right: auto;
 }
+
 .divideTopBottom {
   color: black;
 }
@@ -71,6 +76,7 @@
   display: flex;
   margin-top: 23px;
 }
+
 .propertyListItem {
   margin-right: 30px;
   /* margin: 6vh 0; */
@@ -80,25 +86,23 @@
   box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000,
     20px 1px 37px 8px rgba(0, 0, 0, 0.11);
   background: rgb(170, 11, 11);
-  background: radial-gradient(
-    circle,
-    rgba(170, 11, 11, 1) 43%,
-    rgba(200, 172, 133, 1) 100%
-  );
+  background: radial-gradient(circle,
+      rgba(170, 11, 11, 1) 43%,
+      rgba(200, 172, 133, 1) 100%);
   border-radius: 7px;
   height: 100%;
   width: 80px;
   font-weight: 700;
   cursor: pointer;
 }
+
 .propertyListItem:hover {
   background: rgb(200, 172, 133, 1);
-  background: radial-gradient(
-    circle,
-    rgba(200, 172, 133, 1) 23%,
-    rgba(170, 11, 11, 1) 100%
-  );
+  background: radial-gradient(circle,
+      rgba(200, 172, 133, 1) 23%,
+      rgba(170, 11, 11, 1) 100%);
 }
+
 .link {
   text-decoration: none;
 }
@@ -108,7 +112,8 @@
 .link:visited,
 .link:hover,
 .link:active {
-  color: inherit; /* or specify the color you want */
+  color: inherit;
+  /* or specify the color you want */
 }
 
 @media (max-width: 619px) {
@@ -116,4 +121,11 @@
     display: flex;
     flex-wrap: wrap;
   }
+
+  .salePropertyListItem:hover span {
+    top: 60%;
+    left: 3%;
+
+  }
+
 }

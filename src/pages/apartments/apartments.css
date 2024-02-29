@@ -35,12 +35,13 @@
   margin-top: 23px;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .apartmentImg {
-  display: flex;
-  max-width: 18vw;
+  width: 350px;
   object-fit: cover;
+  display: flex;
 }
 
 .DescList {
@@ -58,6 +59,7 @@
 
 .apartmentsListItem {
   margin-top: 23px;
+
 }
 
 /* save and delete icon */

@@ -35,10 +35,11 @@
   margin-top: 23px;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .houseImg {
-  max-width: 18vw;
+  max-width: 320px;
   object-fit: cover;
   display: flex;
 }

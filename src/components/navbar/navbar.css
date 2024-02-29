@@ -7,6 +7,7 @@
   height: 82vh;
   width: 170px;
 }
+
 .navPages {
   padding: 0;
   margin: 0;
@@ -16,6 +17,7 @@
   justify-content: space-evenly;
   list-style: none;
 }
+
 .navPage {
   margin: 6vh 0;
   padding: 12px;
@@ -24,25 +26,23 @@
   box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000,
     20px 1px 37px 8px rgba(0, 0, 0, 0.11);
   background: rgb(170, 11, 11);
-  background: radial-gradient(
-    circle,
-    rgba(170, 11, 11, 1) 43%,
-    rgba(200, 172, 133, 1) 100%
-  );
+  background: radial-gradient(circle,
+      rgba(170, 11, 11, 1) 43%,
+      rgba(200, 172, 133, 1) 100%);
   border-radius: 7px;
   height: 100%;
   width: 80px;
   font-weight: 700;
   cursor: pointer;
 }
+
 .navPage:hover {
   background: rgb(200, 172, 133, 1);
-  background: radial-gradient(
-    circle,
-    rgba(200, 172, 133, 1) 23%,
-    rgba(170, 11, 11, 1) 100%
-  );
+  background: radial-gradient(circle,
+      rgba(200, 172, 133, 1) 23%,
+      rgba(170, 11, 11, 1) 100%);
 }
+
 /* Remove underline */
 .link {
   text-decoration: none;
@@ -58,9 +58,10 @@
 
 @media (max-width: 619px) {
   .navbar {
-    height: 33vh;
+    height: 22vh;
     width: 100%;
   }
+
   .navPage {
     margin: 0.5vh 0;
     padding: 12px;
